@@ -1,0 +1,41 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: промежуточный каталог (x64\Release\) содержит файлы, которые используются совместно с другим проектом (hook.vcxproj, StrafeOptimizer.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  dllmain.cpp
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1009,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1010,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1011,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1012,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1029,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1030,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1031,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1032,7): warning C4244: *=: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1049,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1050,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1051,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1052,16): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1159,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1160,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1161,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1162,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1179,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1180,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1181,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1182,7): warning C4244: *=: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1199,16): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1200,16): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1201,16): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\vector.h(1202,16): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\sdk\mathlib.h(1830,19): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(210,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(222,27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(229,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\VICTUS\Desktop\с++\opti_github\dll\dllmain.cpp(236,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Создание кода
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 132 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+detours.lib(detours.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(detours.obj)" или на "C:\Users\VICTUS\Desktop\с++\opti_github\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+detours.lib(disasm.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(disasm.obj)" или на "C:\Users\VICTUS\Desktop\с++\opti_github\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+detours.lib(modules.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(modules.obj)" или на "C:\Users\VICTUS\Desktop\с++\opti_github\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  dll.vcxproj -> C:\Users\VICTUS\Desktop\с++\opti_github\x64\Release\Strafe-Optimizer.dll

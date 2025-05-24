@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="sig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\globalvars_base.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\in_buttons.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vector.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sig.h" />
+    <ClInclude Include="sdk\cusercmd.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{1d78d946-92b3-4bf1-bcbe-7d2c24f4606f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
