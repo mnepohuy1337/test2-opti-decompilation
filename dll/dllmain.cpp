@@ -8,7 +8,6 @@
 #include "sdk/globalvars_base.h"
 #include "sdk/cusercmd.h"
 #include "sdk/IEngineTrace.h"
-#include "sdk/fvector.h"
 #include "sdk/ConVar.h"
 #include "sdk/C_BasePlayer.h"
 #include "sdk/EngineFrametime.h"
