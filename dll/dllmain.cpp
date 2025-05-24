@@ -1,6 +1,4 @@
 ﻿#include "sig.h"
-#include <iostream>;
-#include <string>;
 #include <Windows.h>
 #include <cmath>
 #include "interface.h"
