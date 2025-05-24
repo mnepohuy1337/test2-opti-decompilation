@@ -53,7 +53,6 @@ Frametime* frametime;
 bool validate_angle = true;
 bool autostrafe = false;
 bool enabled = false;
-bool autosync = false;
 bool IsNearWall;
 
 float power = 0.f, gain = 1.f;
