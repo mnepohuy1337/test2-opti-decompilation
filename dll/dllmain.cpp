@@ -171,28 +171,6 @@ bool __fastcall create_move_hk(uintptr_t thisptr, float flInputSampleTime, CUser
 	return o_create_move(thisptr, flInputSampleTime, cmd);
 }
 
-void APE_disable() {
-	uintptr_t address = p_gJumpPrediction;
-	uint8_t patch[6] = { 0xF6, 0x40, 0x28, 0x02, 0x75, 0xD1 };
-
-	DWORD oldProtect;
-	if (VirtualProtect(reinterpret_cast<void*>(address), sizeof(patch), PAGE_EXECUTE_READWRITE, &oldProtect)) {
-		memcpy(reinterpret_cast<void*>(address), patch, sizeof(patch));
-		VirtualProtect(reinterpret_cast<void*>(address), sizeof(patch), oldProtect, &oldProtect);
-	}
-}
-
-void APE_enable() {
-	uintptr_t address = p_gJumpPrediction;
-	uint8_t nops[6] = { 0x90, 0x90, 0x90, 0x90, 0x90, 0x90 };
-
-	DWORD oldProtect;
-	if (VirtualProtect(reinterpret_cast<void*>(address), sizeof(nops), PAGE_EXECUTE_READWRITE, &oldProtect)) {
-		memcpy(reinterpret_cast<void*>(address), nops, sizeof(nops));
-		VirtualProtect(reinterpret_cast<void*>(address), sizeof(nops), oldProtect, &oldProtect);
-	}
-}
-
 void __cdecl cbuf_addtext_hk(const char* text)
 {
 	char* cmd = new char[255];
@@ -242,16 +220,6 @@ void __cdecl cbuf_addtext_hk(const char* text)
 	{
 		validate_angle = !validate_angle;
 		con_msg("optimizer angle validation %s\n", validate_angle ? "ON" : "OFF");
-	}
-	else if (strcmp(cmd, "ape_enable") == 0)
-	{
-		APE_enable();
-		con_msg("BunnyhopAPE %s\n",  "ON");
-	}
-	else if (strcmp(cmd, "ape_disable") == 0)
-	{
-		APE_disable();
-		con_msg("BunnyhopAPE %s\n", "OFF");
 	}
 	else if (strcmp(cmd, "autostrafe_toggle") == 0)
 	{
